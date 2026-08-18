@@ -26,6 +26,11 @@ Sistema de gestión de almacenes con arquitectura local-first y sincronización 
 - **Logro Técnico:** Implementación de consistencia de datos eventual y optimización de consultas SQL para manejo de inventario a gran escala. Desacoplamiento de lógica mediante arquitectura limpia.
 - **Stack:** .NET, SQL Server, Git.
 
+#### 📁 FileRouter - Motor Automático de Clasificación
+Aplicación residente en memoria (System Tray) para la organización automatizada del sistema de archivos local mediante reglas jerárquicas.
+- **Logro Técnico:** Diseño estricto bajo Clean Architecture y principios SOLID. Implementación de I/O asíncrono, políticas de resiliencia (Polly) para archivos bloqueados, y despliegue como binario autónomo (Single-File).
+- **Stack:** .NET 8, WPF, Polly, Serilog, xUnit & Moq.
+
 ---
 
 ### 📈 Filosofía de Trabajo: Disciplina y Desarrollo Colaborativo
